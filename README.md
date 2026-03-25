@@ -1,19 +1,28 @@
-# Azure Data Engineering Pipeline 
+# Azure Data Engineering Pipeline 🚀
 
-This project demonstrates an end-to-end Azure Data Engineering pipeline using:
+## 📌 Overview
+This project demonstrates an end-to-end Azure Data Engineering pipeline using Azure Data Factory, Databricks, and PySpark.
+
+## 🧠 Architecture
+Source → ADF → Bronze → Silver → Gold → Analytics
+
+## ⚙️ Tech Stack
 - Azure Data Factory (ADF)
 - Azure Databricks
 - PySpark
-- Azure Data Lake
+- Azure Data Lake Storage (ADLS)
+- SQL
 
-## Architecture
-Source → ADF → Bronze → Silver → Gold → Analytics
+## 📊 Project Workflow
 
-## Features
-- Data ingestion
-- Data transformation
-- Aggregation layer
-- SQL analytics
+### 🔹 Bronze Layer
+- Raw data ingestion from source (CSV)
 
-## Author
-Haripriya
+### 🔹 Silver Layer
+- Data cleaning (null handling)
+- Data transformation using PySpark
+
+### 🔹 Gold Layer
+- Aggregation (total sales by product)
+
+## 📁 Project Structure
