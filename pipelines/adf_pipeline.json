@@ -1,0 +1,13 @@
+{
+  "name": "ETL_Pipeline",
+  "activities": [
+    {
+      "name": "Ingest Data",
+      "type": "Copy Activity"
+    },
+    {
+      "name": "Transform Data",
+      "type": "Databricks Notebook"
+    }
+  ]
+}
