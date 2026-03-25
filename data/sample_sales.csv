@@ -1,0 +1,6 @@
+order_id,customer_name,product,amount,order_date
+1,Ravi,Laptop,55000,2024-01-10
+2,Anjali,Mobile,20000,2024-01-11
+3,Kiran,Tablet,,2024-01-12
+4,Meena,Laptop,60000,2024-01-13
+5,Arjun,Mobile,25000,2024-01-14
