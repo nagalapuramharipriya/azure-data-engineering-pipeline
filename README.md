@@ -24,5 +24,25 @@ Source → ADF → Bronze → Silver → Gold → Analytics
 
 ### 🔹 Gold Layer
 - Aggregation (total sales by product)
-
 ## 📁 Project Structure
+```
+data/
+notebooks/
+pipelines/
+sql/
+```
+
+---
+
+## 📈 Key Highlights
+- Built ETL pipeline using Azure Data Factory and Databricks  
+- Implemented Medallion Architecture (Bronze, Silver, Gold)  
+- Performed data transformation using PySpark  
+- Designed scalable data workflow  
+
+---
+
+## 🔮 Future Enhancements
+- Real-time streaming using Kafka  
+- CI/CD pipeline using Azure DevOps  
+- Power BI dashboard integration  
